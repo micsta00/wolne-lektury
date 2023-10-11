@@ -50,9 +50,9 @@ function App() {
             {category.simple_thumb && <div className="wrapper--image" style={{ background: `url(${category.simple_thumb}), lightgray 50% / cover no-repeat` }}></div>}
             <div className="wrapper--buttons">
               {category.pdf && <a href={category.pdf} target="_blank"><div className="wrapper--buttons--button">pdf</div></a>}
-              {category.epub && <a href={category.pdf} target="_blank"><div className="wrapper--buttons--button">epub</div></a>}
-              {category.mobi && <a href={category.pdf} target="_blank"><div className="wrapper--buttons--button">mobi</div></a>}
-              {category.txt && <a href={category.pdf} target="_blank"><div className="wrapper--buttons--button">txt</div></a>}
+              {category.epub && <a href={category.epub} target="_blank"><div className="wrapper--buttons--button">epub</div></a>}
+              {category.mobi && <a href={category.mobi} target="_blank"><div className="wrapper--buttons--button">mobi</div></a>}
+              {category.txt && <a href={category.txt} target="_blank"><div className="wrapper--buttons--button">txt</div></a>}
             </div>
           </div>
         )
